@@ -29,7 +29,7 @@ clean:
 	rm -r $(TF_MODEL_NAME)* $(INPUT_FILENAME)
 
 edit:
-	vim *.py Makefile *.md
+	vim *.py Makefile *.md checkpoint
 
 all: train
 
